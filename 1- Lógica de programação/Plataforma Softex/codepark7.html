@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codepark nº 07</title>
+</head>
+<body>
+    <script>
+        function calculadora() {
+            while (true) {
+                window.alert("1: Soma");
+                window.alert("2: Subtração")
+                window.alert("3: Multiplicação")
+                window.alert("4: Divisão")
+                window.alert("0: Sair")
+
+                const escolhaOperacao = Number(window.prompt("Digite o número para a operação correspondente:"))
+
+                if (escolhaOperacao === 0) {
+                    window.alert("Saindo...")
+                    break
+                }
+                else if (![1, 2, 3, 4].includes(escolhaOperacao)){
+                    window.alert("Essa opção não existe.")
+                    continue
+                }
+                const num1 = Number(window.prompt("Digite o primeiro valor:"))
+                const num2 = Number(window.prompt("Digite o segundo valor:"))
+                if (escolhaOperacao === 1){
+                    resultado = num1 + num2
+                    window.alert(`Valor da soma = ${resultado}`)
+                    continue
+                }
+                else if (escolhaOperacao === 2){
+                    resultado = num1 - num2
+                    window.alert(`Valor da subtração = ${resultado}`)
+                    continue
+                }
+                else if (escolhaOperacao === 3){
+                    resultado = num1 * num2
+                    window.alert(`Valor da multiplicação = ${resultado}`)
+                    continue
+                }
+                else if (escolhaOperacao ===4){
+                    resultado = num1 / num2
+                    window.alert(`Valor da divisão = ${resultado}`)
+                    continue;
+                }
+            }
+        }
+            calculadora()
+    </script>
+</body>
+</html>
