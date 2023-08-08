@@ -1,0 +1,20 @@
+1. Crie um objeto com os seus dados pessoais
+• Deve possui pelo menos duas propriedades nome e sobrenome
+2. Crie um método no objeto anterior, que mostre o seu nome completo
+
+3. Modifique o valor da propriedade preco para 3000
+var carro = {
+ preco: 1000,
+ portas: 4,
+ marca: 'Audi',
+}
+
+4. Crie um objeto de um cachorro que represente um labrador preto com 10 anos, que late ao ver um homem
+
+5. Sistema de Gastos Familiar
+Crie um objeto que possuirá 2 propriedades, ambas do tipo array
+• Receitas : [ ]
+• Despesas: [ ]
+Agora, crie uma função que irá calcular o total de receitas e despesas e irá mostrar uma mensagem se a família está com o saldo positivo ou negativo, seguido do valor do saldo.
+
+6. Crie um objeto com dados bancário de um usuário. Crie uma função dentro do objeto que mostre todos os dados bancários do usuário;

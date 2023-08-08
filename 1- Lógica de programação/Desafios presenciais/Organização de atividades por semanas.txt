@@ -1,0 +1,3 @@
+1ª semana: Estruturas de decisão
+2ª semana: Funções
+3ª semana: Objetos

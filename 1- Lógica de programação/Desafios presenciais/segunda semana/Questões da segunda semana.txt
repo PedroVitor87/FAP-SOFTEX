@@ -1,0 +1,18 @@
+1. Crie um array de carros e mostre na tela o tamanho dessa array da função length
+
+2. Adcionando mais nomes em um array com o push
+
+3. Escreva uma função que retorne o cubo de um número fornecido pelo usuário.
+
+4. Escreva uma função que retorne a área de um triângulo, a partir dos valores de base e altura fornecidos.
+
+5. Escreva uma função que mostre na tela um número fornecido pelo usuário, porém invertido. Por exemplo, o usuário fornece o número 875 e a função mostra na tela o número 578.
+
+6. Escreva uma função que informe o retorno de um investimento (montante) com base nos valores do capital inicial, tempo em meses e taxa de juros mensal, fornecidos pelo usuário. 
+Use a fórmula: 
+M = C * (1+i)t
+
+Onde:
+C = Capital inicial investido
+i = Taxa de juros, em percentual
+t = Tempo do investimento, em meses

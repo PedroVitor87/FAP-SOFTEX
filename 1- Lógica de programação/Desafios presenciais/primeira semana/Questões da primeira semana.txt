@@ -1,0 +1,30 @@
+1. Faça um programa que peça ao usuário 3 notas de um aluno e mostre a média dessas notas.
+
+2. Faça um programa que leia do usuário uma temperatura em Fahrenheit, converta-a para graus Celsius e escreva o novo valor na tela. A fórmula de conversão de Fahrenheit (F) para Celsius é C = ( ( F - 32 ) * 5 ) / 9. 
+
+Exemplo: 100 Fahrenheit = 37,77 Celsius.
+
+3. Faça um programa que peça ao usuário o ano que ele nasceu e mostre a idade desse usuário;
+
+4. Faça um programa que peça ao usuário seu nome e sobrenome e depois usando a concatenação exiba o nome e sobrenome do usuário.
+
+5. Faça um programa que leia 2 números, some-os e exiba uma mensagem com o resultado apenas se o resultado for maior que 100.
+
+6. Faça um programa e solicite três números inteiros ao usuário e mostre o maior deles.
+
+7. Faça um script que recebe o salário de um colaborador e o reajuste segundo o seguinte critério, baseado no salário atual:
+salários até R$ 280,00 (incluindo) : aumento de 20%
+salários entre R$ 280,00 e R$ 700,00 : aumento de 15%
+salários entre R$ 700,00 e R$ 1500,00 : aumento de 10%
+salários de R$ 1500,00 em diante : aumento de 5% 
+
+Após o aumento ser realizado, informe na tela:
+o salário antes do reajuste;
+o percentual de aumento aplicado;
+o valor do aumento;
+o novo salário, após o aumento.
+
+8. Faça um script que leia um número e exiba o dia correspondente da semana. 
+(1-Domingo, 2- Segunda, etc.), se digitar outro valor deve aparecer valor inválido.
+
+9. Faça um programa que peça a idade do usuário e informe com uma mensagem se ele está apto ou não a votar.
