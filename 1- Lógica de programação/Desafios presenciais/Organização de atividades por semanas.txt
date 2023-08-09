@@ -1,3 +1,4 @@
 1ª semana: Estruturas de decisão
 2ª semana: Funções
 3ª semana: Objetos
+4ª semana: Estrutura de dados e Arrays

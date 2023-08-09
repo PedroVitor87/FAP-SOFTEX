@@ -1,0 +1,17 @@
+1. Desenvolver um programa que efetue a leitura de dez elementos de uma array A. Construir uma array B do mesmo tipo, observando a seguinte lei de formação: se o valor 
+do índice for par, o valor deverá ser multiplicado por 5. Sendo ímpar, deverá ser somado com 5. Ao final mostrar o conteúdo do array B.
+
+2. Desenvolver um programa que efetue a leitura de cinco elementos de uma array A. No final, apresente o total da soma de todos os elementos que sejam ímpares.
+
+3. Ler 20 elementos de uma matriz A do tipo vetor e construir uma matriz B de mesma dimensão com os mesmos elementos da matriz A, sendo que deverão estar invertidos. Ou seja, o primeiro elemento de A passa a ser o último de B, o segundo elemento de A passa a ser o penúltimo de B e assim por diante. Apresentar as matrizes A e B.
+
+4. Usando o reduce, mostre a média da turma.
+
+5. Usando os métodos, POP, SHIFT, UNSHIFT, PUSH. Faça o que se pede:
+
+Const numbers = [1, 2, 3, 4, 5,8,9,10,14]
+• Adicione o numero -1 ao inicio do array
+• Remova o ultimo elemento do array
+• Remova os numeros 5,8,9
+• Adicione os números [50,60,70] ao final do array
+• Remova o primeiro elemento do array
