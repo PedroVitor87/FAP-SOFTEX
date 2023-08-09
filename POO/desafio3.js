@@ -9,6 +9,5 @@ class pessoa {
         return nomeIdadeSexo
     }
 }
-//                            nome      ,     sexo   , idade
 const pessoa1 = new pessoa('Pedro Vitor', 'Masculino', 20)
 console.log(pessoa1.informacoes);
