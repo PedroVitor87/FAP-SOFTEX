@@ -22,7 +22,7 @@ console.log(tipoString);
 console.log(tipoSymbol);
 //Declarando variáveis com seus valores
 tipoBoolean = true;
-tipoBigInt = 5478;
+tipoBigInt = 9192922838838449999n;
 tipoString = 'Olá mundo';
 tipoSymbol = Symbol ();
 //Exibindo o tipo e conteúdos das variáveis com valores nulos
