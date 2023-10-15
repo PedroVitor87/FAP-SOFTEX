@@ -1,0 +1,25 @@
+Uma empresa precisa se comunicar com outra empresa para realizar o envio de informações de seus clientes de forma segura então se utiliza o padrão de comunicação SOAP.
+
+REQUISIÇÃO: Contém os dados do cliente (nome, endereço, telefone) no corpo da mensagem. Pode ser incluido informações de autenticação no cabeçalho, se necessário.
+
+- <soap:Envelope>: O elemento raiz que encapsula toda a mensagem SOAP.
+
+- <soap:Header>: Cabeçalho opcional que pode conter informações de segurança ou dados de autenticação. No exemplo, está vazio.
+
+- <soap:Body>: Elemento obrigatório. Contém o corpo da mensagem SOAP, onde a ação principal é definida.
+
+- <EnviarInformacoesDeClientes>: Um elemento que representa a ação de enviar informações de clientes. Dentro deste elemento, estão os detalhes específicos do cliente, como Nome, Endereço e Telefone.
+
+-------------------------------------------------------------------------------------------------------------------------
+
+RESPOSTA
+
+<soap:Envelope>: Semelhante à requisição, este é o envelope da resposta SOAP.
+
+<soap:Header>: Opcional e, neste exemplo, vazio.
+
+<soap:Body>: Contém o corpo da resposta SOAP, onde os resultados da ação são encapsulados.
+
+<Resposta>: Elemento englobando os detalhes da resposta.
+    <Status>: Status da resposta. No exemplo, está definido como "Sucesso de recebimento".
+    <Mensagem>: Mensagem informativa associada ao status. No exemplo, está definida como "Informações recebidas com sucesso."

@@ -1,0 +1,26 @@
+<!-- Requisição em xmls para envio de informações -->
+<?xml version="1.0"?>
+<soap:Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Header>
+        <!-- Elemento opcional que deve ser utilizado se desejar enviar informações de segurança ou dados de autenticação -->
+    </soap:Header>
+    <soap:Body>
+        <EnviarInformacoesDeClientes>
+            <Nome>Pedro Vitor</Nome>
+            <Endereco>Rua Aleartória</Endereco>
+            <Telefone>87999004949</Telefone>
+        </EnviarInformacoesDeClientes>
+</soap:Envelope>
+
+<!-- Resposta em xmls para confirmar recebimento de informações -->
+<soap:Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap:Header>
+        <!-- Elemento opcional que deve ser utilizado se desejar enviar informações de segurança ou dados de autenticação -->
+    </soap:Header>
+    <soap:Body>
+        <Resposta>
+            <Status>Sucesso de recebimento</Status>
+            <Mensagem>Informações recebidas com sucesso.</Mensagem>
+        </Resposta>
+    </soap:Body>
+</soap:Envelope>
