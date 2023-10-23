@@ -1,0 +1,16 @@
+{
+  "name": "atividade-5",
+  "version": "1.0.0",
+  "description": "O Sistema de Gerenciamento de Livros é um serviço web REST desenvolvido com Express para simplificar a gestão de uma coleção de livros. Este projeto oferece funcionalidades essenciais para criar, listar, atualizar e excluir livros de forma eficiente.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
